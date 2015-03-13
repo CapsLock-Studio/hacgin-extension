@@ -4,7 +4,7 @@ $(function() {
     $.each($("p"), function(k, v) {
         var text = $(v).text();
         var m;
-        if (m = text.match(/[0-9a-f]{40}/gi)) {
+        if (m = text.match(/[0-9a-f]{40}/gi) && m != undefined) {
             data.push(m[0]);
         }
     });
