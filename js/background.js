@@ -1,6 +1,6 @@
 var data = []
 var content = "";
-$.each($("p, pre"), function(k, v) {
+$.each($("p, pre, .entry-content"), function(k, v) {
     var text = $(v).text();
     var m;
     if (m = text.match(/[0-9a-fA-F]{40}/gi)) {
