@@ -17,6 +17,6 @@ if (data.length != 0) {
         content += link;
     }
 
-    $("body").append($("<div id='dialog' style='text-align: center;'>" + content + "</div>"));
+    $("body").append($('<div id="dialog" style="text-align: center;">' + content + '</div>'));
     $("#dialog").dialog();
 }

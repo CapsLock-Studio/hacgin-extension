@@ -8,8 +8,5 @@
         "css": ["css/jquery-ui.min.css", "css/jquery-ui.theme.min.css"],
         "js": ["js/jquery.js", "js/jquery-ui.min.js", "js/background.js"]
     }],
-    "web_accessible_resources": [
-       "images/*"
-    ],
     "permissions": ["http://www.hacg.in/wordpress/*", "tabs"]
  }
